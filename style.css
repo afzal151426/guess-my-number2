@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  font-family: "Press Start 2p";
+}
+header {
+  display: flex;
+  justify-content: space-between; 
+}
+.leftDiv {
+  width: 16vw;
+  padding: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 0px 15px;
+border-radius: 6px;
+  width: 150px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #e3e3e3;
+  color: black;
+}
+.leftDiv:hover{
+    opacity: 0.8;
+}
+.rightDiv {
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  margin: 10px 20px;
+}
+h1 {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  color: white;
+   margin-top: 3%;
+}
+.middle {
+  margin-top: 9%;
+  border: 1px solid magenta;
+  position: relative;
+  width: 100vw;
+}
+hr {
+  color: white;
+  height: 3px;
+  background: white;
+}
+.box {
+  color: black;
+  font-size: 5rem;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  background-color: #e3e3e3;
+  width: 13vw;
+  height: 120px;
+  position: absolute;
+  right: 44%;
+  top: -58px;
+}
+.bottom {
+  margin-top: 9rem;
+  display: flex;
+  justify-content: space-around;
+  height: 30%;
+}
+.leftBottom{
+    width: 30vw;
+    height: 100%;
+}
+
+.inputNumber {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 5rem;
+  background-color: black;
+  border: 4px solid #bebaba;
+  border-radius: 3px;
+  color: white;
+}
+input[type="number"] {
+  font-size: 40px;
+  color: white;
+  font-family: "Press Start 2p";
+}
+.btn {
+  margin: 20px;
+  padding: 14px;
+  width: 9rem;
+  font-family: "Press Start 2p";
+  font-size: 20px;
+  cursor: pointer;
+    margin: 20px;
+
+}
+
+.rightBottom {
+ width: 30vw;
+
+}
+.rightBottom > p {
+  color: rgb(212, 212, 212);
+}
+
+.firstPara {
+  margin-bottom: 50px;
+  font-size: 22px;
+}
+.secondPara {
+    font-size: 18px;
+  margin-bottom: 14px;
+}
+.p2 > p {
+  color: rgb(210, 210, 210);
+}
+@media screen and (min-width: 1500px) {
+  .nav {
+    height: 30%;
+  }
+  .leftDiv {
+    height: 100%;
+    width: 16vw;
+  }
+  .rightDiv {
+    height: 100%;
+    width: 20vw;
+    padding: 2%;
+    border-radius: 1%;
+ 
+  }
+}
+@media screen and ((min-width: 1000px) and (max-width:1499px)) {
+
+  .box{
+    width: 20vw;
+  }
+  .leftDiv {
+    height: 80%;
+    padding: 2%;
+  }
+  .rightDiv {
+    text-align: center;
+    height: 100%;
+    width: 25vw;
+    padding: 2%;
+    border-radius: 1%;
+  
+  }
+}
+@media screen and ((min-width: 501px) and (max-width:999px)) {
+    .middle{
+        margin-top: 15%;
+    }
+    .box{
+        width: 25vw;
+      }
+      .leftBottom{
+        width: 40vw;
+      }
+      .rightBottom{
+        width: 40vw;
+      }
+}
+
+@media screen and ( max-width:500px) {
+
+  .middle{
+    margin-top: 30%;
+}
+  .box{
+    width: 33vw;
+    right: 37%;
+  }
+  h1{
+    font-size: 20px;
+    width: 100vw;
+    margin-top: 9%;
+  }
+  .leftDiv {
+    height: 80%;
+    width: 22vw;
+    padding: 10px;
+  }
+  .rightDiv {
+    text-align: center;
+    height: 100%;
+    width: 53vw;
+    padding: 10px 0px;
+   margin: 10px 0px;
+    border-radius: 1%;
+  }
+  .bottom{
+    margin-top: 30%;
+  }
+  .leftBottom{
+    width: 42vw;
+  }
+  .inputNumber{
+    margin-left: 10px;
+    width: 160px;
+    height: 60px;
+
+  }
+  input[type="number"] {
+    font-size: 30px;
+    color: white;
+    font-family: "Press Start 2p";
+  }
+  .btn{
+    margin-left: 30px;
+    width: 8rem;
+  }
+  .rightBottom{
+    width: 42vw;
+  }
+  .firstPara{
+    font-size: 12px;
+  }
+  .secondPara{
+    font-size: .85rem;
+  }
+}
